@@ -16,7 +16,8 @@ You'll get the outputs in the */generated* folder.
 - run "mvn clean install" 
 - deploy war in wildfly 8 or greater
 
-remember than i have copied the dist directory src/webapp of content (maybe you need to update):
+remember than i have copied the swagger-ui/dist github directory 
+in src/webapp of content (maybe you need to update from here):
 ```
 [swagger-ui](https://github.com/swagger-api/swagger-ui/blob/master/dist/).
 

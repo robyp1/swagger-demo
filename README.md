@@ -12,7 +12,7 @@ mvn compile
 You'll get the outputs in the */generated* folder.
 
 ```
-- Copy generated/swagger.json in src/webapp 
+- Copy generated/swagger.json and document.html in src/webapp 
 - run "mvn clean install" 
 - deploy war in wildfly 8 or greater
 
@@ -21,7 +21,9 @@ in src/webapp of content (maybe you need to update from here):
 ```
 [swagger-ui](https://github.com/swagger-api/swagger-ui/blob/master/dist/).
 
-open browser on [index.html](http://localhost:8080/swagger-maven-example/index.html).
+open browser on [index.html](http://localhost:8080/swagger-maven-example/index.html). (you can test apis)
+
+or to see api documentation only open [document.html](http://localhost:8080/swagger-maven-example/document.html).
 
 if you wanna check [swagger.json](http://localhost:8080/swagger-maven-example/swagger.json). 
 

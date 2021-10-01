@@ -70,7 +70,7 @@
                 <version>2.1.1</version>
                 <configuration>
                     <warName>swagger-maven-example</warName>
-                    <webappDirectory>${tol.war.folder}</webappDirectory>
+<!--                    <webappDirectory></webappDirectory>-->
                     <useCache>true</useCache>
                     <webResources>
                         <resource>
